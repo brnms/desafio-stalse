@@ -1,0 +1,27 @@
+{
+  "total_records": 1444963,
+  "sentiment_summary": {
+    "POSITIVE": 963799,
+    "NEGATIVE": 481164
+  },
+  "review_state_summary": {
+    "fresh": 963799,
+    "rotten": 481164
+  },
+  "top_movies": {
+    "parasite_2019": 954,
+    "ant_man_and_the_wasp_quantumania": 760,
+    "joker_2019": 597,
+    "once_upon_a_time_in_hollywood": 580,
+    "avengers_endgame": 555
+  },
+  "top_publications": {},
+  "top_critics": {
+    "Emanuel Levy": 13274,
+    "Dennis Schwartz": 13124,
+    "Roger Moore": 8413,
+    "Roger Ebert": 7366,
+    "Brian Orndorf": 7070
+  },
+  "top_critic_percentage": 30.23
+}

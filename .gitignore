@@ -28,4 +28,27 @@ backend/db.sqlite
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db# Python / FastAPI / Banco de Dados
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite
+*.db
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs e Variáveis de Ambiente
+*.log
+.env
+.env.local
+.env*.local
+
+# Sistema operacional
+.DS_Store
 Thumbs.db

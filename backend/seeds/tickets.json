@@ -1,0 +1,162 @@
+[
+  {
+    "created_at": "2026-10-15T09:30:00Z",
+    "customer_name": "Alice Silva",
+    "channel": "email",
+    "subject": "Dúvida sobre cobrança na fatura",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-15T10:15:00Z",
+    "customer_name": "Bruno Souza",
+    "channel": "chat",
+    "subject": "Erro ao tentar redefinir senha",
+    "status": "in_progress",
+    "priority": "medium"
+  },
+  {
+    "created_at": "2026-10-15T11:00:00Z",
+    "customer_name": "Carla Mendes",
+    "channel": "whatsapp",
+    "subject": "Pedido não entregue no prazo",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-15T11:45:00Z",
+    "customer_name": "Diego Ferreira",
+    "channel": "email",
+    "subject": "Solicitação de cancelamento de plano",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-15T12:30:00Z",
+    "customer_name": "Eduarda Lima",
+    "channel": "phone",
+    "subject": "Problema com acesso à plataforma",
+    "status": "in_progress",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-16T08:10:00Z",
+    "customer_name": "Fernando Rocha",
+    "channel": "chat",
+    "subject": "Atualização de dados cadastrais",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-16T09:00:00Z",
+    "customer_name": "Gabriela Santos",
+    "channel": "email",
+    "subject": "Elogio ao atendimento do suporte",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-16T10:20:00Z",
+    "customer_name": "Heitor Oliveira",
+    "channel": "whatsapp",
+    "subject": "Comprovante de pagamento pendente",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "created_at": "2026-10-16T11:05:00Z",
+    "customer_name": "Isabela Martins",
+    "channel": "email",
+    "subject": "Solicitação de segunda via de boleto",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-16T13:40:00Z",
+    "customer_name": "João Pedro Costa",
+    "channel": "chat",
+    "subject": "Incompatibilidade de sistema operacional",
+    "status": "in_progress",
+    "priority": "medium"
+  },
+  {
+    "created_at": "2026-10-17T09:15:00Z",
+    "customer_name": "Karina Ribeiro",
+    "channel": "phone",
+    "subject": "Lentidão ao carregar relatório",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-17T10:00:00Z",
+    "customer_name": "Lucas Alves",
+    "channel": "whatsapp",
+    "subject": "Mudança de endereço de entrega",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "created_at": "2026-10-17T11:30:00Z",
+    "customer_name": "Mariana Carvalho",
+    "channel": "email",
+    "subject": "Sugestão de nova funcionalidade",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-17T14:10:00Z",
+    "customer_name": "Nicolas Teixeira",
+    "channel": "chat",
+    "subject": "Falha na integração via API",
+    "status": "in_progress",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-17T15:25:00Z",
+    "customer_name": "Olivia Fernandes",
+    "channel": "email",
+    "subject": "Dúvida técnica sobre webhook",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "created_at": "2026-10-18T08:45:00Z",
+    "customer_name": "Paulo Henrique",
+    "channel": "phone",
+    "subject": "Cobrança duplicada no cartão",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-18T09:50:00Z",
+    "customer_name": "Quésia Nogueira",
+    "channel": "whatsapp",
+    "subject": "Confirmação de agendamento",
+    "status": "closed",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-18T10:30:00Z",
+    "customer_name": "Rafael Azevedo",
+    "channel": "chat",
+    "subject": "Erro 500 ao salvar formulário",
+    "status": "in_progress",
+    "priority": "high"
+  },
+  {
+    "created_at": "2026-10-18T11:15:00Z",
+    "customer_name": "Sophia Ramos",
+    "channel": "email",
+    "subject": "Solicitação de exportação de dados",
+    "status": "open",
+    "priority": "low"
+  },
+  {
+    "created_at": "2026-10-18T12:00:00Z",
+    "customer_name": "Thiago Monteiro",
+    "channel": "whatsapp",
+    "subject": "Dificuldade de navegação no app móvel",
+    "status": "open",
+    "priority": "medium"
+  }
+]
