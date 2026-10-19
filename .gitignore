@@ -35,3 +35,6 @@ n8n/*
 .idea/
 .DS_Store
 Thumbs.db
+
+data/raw/
+*.csv
