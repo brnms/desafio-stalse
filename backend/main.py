@@ -1,9 +1,18 @@
 from fastapi import FastAPI
-from app.routes.tickets import router as tickets_router
-from app.routes.metrics import router as metrics_router
-from app.storage import init_db
+from fastapi.middleware.cors import CORSMiddleware
+from backend.app.routes.tickets import router as tickets_router
+from backend.app.routes.metrics import router as metrics_router
+from backend.app.storage import init_db
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Para ambiente de desenvolvimento/MVP
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 init_db()
 

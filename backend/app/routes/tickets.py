@@ -1,10 +1,15 @@
 from typing import List, Optional
-from app.schemas import TicketResponse, TicketUpdate
-from app.storage import TicketModel, get_db
+from ..storage import TicketModel, get_db
+from ..schemas import TicketResponse, TicketUpdate
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
+import requests
 
 router = APIRouter(prefix="/tickets", tags=["Tickets"])
+
+N8N_WEBHOOK_URL = (
+    "http://localhost:5678/webhook-test/e406ee05-7402-4774-8144-12fda9b9f760"
+)
 
 
 @router.get("", response_model=List[TicketResponse])
@@ -47,4 +52,18 @@ def update_ticket(
 
     db.commit()
     db.refresh(ticket)
+
+    if ticket.status == "closed" or ticket.priority == "high":
+        payload_data = {
+            "id": ticket.id,
+            "customer_name": getattr(ticket, "customer_name", "N/A"),
+            "subject": getattr(ticket, "subject", "N/A"),
+            "status": ticket.status,
+            "priority": ticket.priority,
+        }
+        try:
+            requests.post(N8N_WEBHOOK_URL, json=payload_data, timeout=3)
+        except Exception as e:
+            print(f"⚠️ Aviso: Falha ao enviar webhook para o n8n: {e}")
+
     return ticket

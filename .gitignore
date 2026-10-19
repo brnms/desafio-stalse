@@ -1,54 +1,37 @@
-# Dependencies
+
 node_modules/
 .venv/
 venv/
 env/
 
-# Next.js
 frontend/.next/
 frontend/out/
 
-# Python & Build
 __pycache__/
 *.py[cod]
+*$py.class
 dist/
 build/
 *.egg-info/
 
-# Databases & Local Data
+
 *.sqlite
 *.sqlite3
+*.db
 backend/db.sqlite
 
-# Environment variables
-.env
-.env.local
 
-# IDEs & OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db# Python / FastAPI / Banco de Dados
-.venv/
-__pycache__/
-*.py[cod]
-*$py.class
-db.sqlite
-*.db
+n8n/*
+!n8n/workflow.json
+!n8n/screenshots/
+!n8n/screenshots/*.png
 
-# Node / Next.js
-node_modules/
-.next/
-out/
-build/
-dist/
-
-# Logs e Variáveis de Ambiente
-*.log
 .env
 .env.local
 .env*.local
+*.log
 
-# Sistema operacional
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
