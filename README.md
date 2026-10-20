@@ -118,10 +118,7 @@ Acesse a aplicação em `http://localhost:3000`.
 
 ## Capturas de Tela e Automação
 
-### Print da Execução do Webhook no n8n
-O workflow capturando com sucesso o payload enviado pelo backend via método POST:
-
-![Print do n8n](n8n/screenshots/01.png)
+![Print do n8n](screenshots/n8n.png)
 
 ---
 
